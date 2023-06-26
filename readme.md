@@ -1,4 +1,4 @@
-# p0006 - gravity gallery
+# [p06] Gravity gallery
 
 - [Live demo](https://.vercel.app/)
 
@@ -12,7 +12,7 @@ Simple gallery with gravity effect.
 - [rapier.rs (wasm)](https://rapier.rs/) - physics engine
 - [React Router](https://reactrouter.com/en/main) - routing
 - [Radix UI](https://www.radix-ui.com/) primitives - modal, portal, `Slot` component
-- [Vite] - bundler
+- [Vite](https://vitejs.dev/) - bundler
 - [Tailwind CSS](https://tailwindcss.com/)- styling
 - Images from [Unsplash](https://unsplash.com/)
 
