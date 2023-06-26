@@ -25,7 +25,7 @@ Handles loading rapier.rs, world initalization, updating motion values of all `<
 
 ```tsx
 <Suspense fallback={<Loading />}>
-	<Physics gravity={{ x: 0, y: -200 }}>{/* ... */}</Physics>
+  <Physics gravity={{ x: 0, y: -200 }}>{/* ... */}</Physics>
 </Suspense>
 ```
 
@@ -39,11 +39,11 @@ Adds rigid body and collider to physics world. It's also a wrapper for `<motion.
 const rigidBodyRef = useRef(null);
 
 return (
-	<RigidBody asChild ref={rigidBodyRef}>
-		<motion.img
-			class="w-[40%]"
-			onLoad={() => rigidBodyRef.current?.initialize()}
-		/>
-	</RigidBody>
+  <RigidBody asChild ref={rigidBodyRef}>
+    <motion.img
+      class="w-[40%]"
+      onLoad={() => rigidBodyRef.current?.initialize()}
+    />
+  </RigidBody>
 );
 ```
