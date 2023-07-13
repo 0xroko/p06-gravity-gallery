@@ -6,6 +6,7 @@ import {
   useMotionTemplate,
   useMotionValue,
 } from "framer-motion";
+import { easeIn } from "framer-motion/dom";
 import { useEffect } from "react";
 
 interface ContentFilterProps extends HTMLMotionProps<"div"> {
@@ -30,7 +31,11 @@ export const ContentFilter = ({ children, ...props }: ContentFilterProps) => {
         [saturation, 0.4, { duration: instantOr(0.3), at: instantOr(0.1) }],
         [brighnessVal, 3.5, { duration: instantOr(0.2), at: instantOr(0.1) }],
         [opacityVal, 0.8, { duration: instantOr(0.2), at: instantOr(0.1) }],
-        [blurVal, 40, { duration: instantOr(0.5), at: instantOr(0.2) }],
+        [
+          blurVal,
+          40,
+          { duration: instantOr(0.4), at: instantOr(0.1), ease: easeIn },
+        ],
       ]);
     } else {
       animate([

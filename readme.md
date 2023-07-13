@@ -1,6 +1,6 @@
 # [p06] Gravity gallery
 
-- [Live demo](https://.vercel.app/)
+- [Live demo](https://p06-gravity-gallery.vercel.app/)
 
 ## Description
 
@@ -15,8 +15,9 @@ Simple gallery with gravity effect.
 - [Vite](https://vitejs.dev/) - bundler
 - [Tailwind CSS](https://tailwindcss.com/)- styling
 - Images from [Unsplash](https://unsplash.com/)
+- [Design inspiration](https://www.christinekoschel.com/)
 
-## More
+## Inner workings
 
 ### `<Physics>`
 

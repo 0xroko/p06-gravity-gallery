@@ -61,7 +61,7 @@ export const Dialog = ({}: DialogProps) => {
                 animate={{
                   opacity: 1,
                 }}
-                className={`mx-auto mt-32 max-w-5xl px-6 text-sm text-black`}
+                className={`mx-auto mt-32 max-w-5xl px-6 text-black`}
               >
                 <Link href="https://rapier.rs">Rapier.rs</Link> {" + "}
                 <Link href="https://www.framer.com/motion/">
@@ -75,7 +75,7 @@ export const Dialog = ({}: DialogProps) => {
                   </Link>
                 </div>
                 <div className={`mt-2`}>
-                  <Link href="https://github.com/0xroko/rapier-framer-motion">
+                  <Link href="https://github.com/0xroko/p06-gravity-gallery">
                     More info
                   </Link>
                 </div>
@@ -88,11 +88,11 @@ export const Dialog = ({}: DialogProps) => {
                     mass={0.02}
                     restitution={0.9}
                     initialRotation={(Math.random() - 0.5) * 45}
-                    delay={220}
+                    delay={0}
                     asChild
                   >
                     <motion.div className={``}>
-                      by <Link href="https://rkbk.gq/gh">0xroko</Link>
+                      by <span className={`font-medium`}>0xroko</span>
                     </motion.div>
                   </RigidBody>
                 </div>
