@@ -17,7 +17,6 @@ export const DialogToggle = ({}: DialogToggleProps) => {
   return (
     <Portal asChild>
       <Link
-        tabIndex={1}
         to={to}
         state={{
           from: location.pathname,

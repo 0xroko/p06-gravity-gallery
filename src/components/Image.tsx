@@ -17,9 +17,9 @@ export const Image = ({ index, src }: ImageProps) => {
         asChild
         friction={1.1}
         ref={rbRef}
-        delay={0}
+        delay={index * 0.1}
         bodyType="dynamic"
-        mass={10}
+        mass={100}
         frictionCombineRule={r.CoefficientCombineRule.Min}
         initialRotation={(Math.random() - 0.5) * 76}
       >

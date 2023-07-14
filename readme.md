@@ -2,9 +2,11 @@
 
 - [Live demo](https://p06-gravity-gallery.vercel.app/)
 
+@TODO: add gif
+
 ## Description
 
-Simple gallery with gravity effect.
+Simple gallery with gravity effect. Main goal was to learn how to use physics engine in web app the React way.
 
 ## Tech used
 
